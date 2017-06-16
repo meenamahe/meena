@@ -1,0 +1,114 @@
+body {
+    font-family: "Lucida", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.jumbotron2
+{
+background-color: black;
+color: white;
+padding: 50px;
+border: 5px;
+}
+
+.button {
+    background-color: orange; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+position: absolute;
+top: 680px;
+left: 400px;
+
+}
+
+.w3-container
+{
+position: absolute;
+top: 1420px;
+left:400px;
+}
+
+
+h4{
+    text-align: center;
+
+
+}
+.w3-button
+{
+position: absolute;
+top: 1610px;
+left: 450px;
+}
+
+.btn2
+{
+position: absolute;
+top: 2240px;
+left: 50px;
+font-size: 24px;
+}
+
+.jumbotron3
+{
+background-color: black;
+color: white;
+padding: 50px;
+border: 5px;
+}
+.w3-button1
+{
+
+position: absolute;
+top: 2490px;
+left: 370px;
+font-size: 24px;
+}
+
+
